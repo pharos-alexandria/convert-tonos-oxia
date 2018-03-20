@@ -19,3 +19,6 @@ It takes two arguments: infile and outfile. Use as follows:
 
 ```python3 convert-tonos-oxia.py infile.txt outfile.txt```
 
+## Note!
+The Unicode Consortium normalizes to the lower code point letters (i.e. tonos), so it's better *not* to use this script.
+Cf. https://wiki.digitalclassicist.org/Greek_Unicode_duplicated_vowels, https://en.wikipedia.org/wiki/Greek_diacritics#Unicode, and https://jktauber.com/articles/python-unicode-ancient-greek/.
